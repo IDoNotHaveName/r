@@ -1,0 +1,107 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Zeta Hub","Ocean")
+ 
+---Tabs
+ 
+local Tab1 = window:NewTab("首页")
+local Tab1Section = Tab1:NewSection("目前版本1.9.3")
+local Tab1Section = Tab1:NewSection("以后会考虑换个ui")
+local Tab2 = window:NewTab("游戏脚本")
+local Tab2Section = Tab2:NewSection("游戏脚本")
+local Tab3 = window:NewTab("FE脚本")
+local Tab3Section = Tab3:NewSection("FE脚本")
+local Tab4 = window:NewTab("汉化脚本")
+local Tab4Section = Tab4:NewSection("汉化过的脚本")
+local Tab5 = window:NewTab("系列型脚本")
+local Tab5Section = Tab5:NewSection("一些系列性脚本,有的是汉化过的")
+local Tab6 = window:NewTab("其他")
+local Tab6Section = Tab6:NewSection("各类手机执行器官网")
+local Tab6Section = Tab6:NewSection("fluxus: fluxteam.net")
+local Tab6Section = Tab6:NewSection("hydrogen: hydrogen.sh")
+local Tab6Section = Tab6:NewSection("delta: deltaexploits.com")
+local Tab6Section = Tab6:NewSection("Arceus X: arceusx.com")
+local Tab7 = window:NewTab("关于")
+local Tab7Section = Tab7:NewSection("ZERO制作")
+local Tab7Section = Tab7:NewSection("汉化部分原创，其余部分缝合")
+local Tab7Section = Tab7:NewSection("完全免费")
+
+---buttons
+
+Tab2Section:NewButton("监狱人生tiger admin","监狱人生指令型脚本",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/IDoNotHaveName/r/main/bruhbruh'),true))()
+end)
+
+Tab2Section:NewButton("忍者战斗模拟器","强力脚本",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Ninja"))()
+end)
+
+Tab3Section:NewButton("infinite yield","fe指令型脚本",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab3Section:NewButton("飞行","飞行",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\90\66\122\99\84\109\49\102\34\41\41\40\41\10")()
+end)
+
+Tab3Section:NewButton("rare animation gui","r6动画脚本",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/EQE58hq3'),true))()
+end)
+
+Tab3Section:NewButton("反fling","能让你不被fling",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/GxdesRQx'),true))()
+end)
+
+Tab4Section:NewButton("监狱人生tiger admin汉化版","汉化",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/IDoNotHaveName/r/main/hmmm'),true))()
+end)
+
+Tab4Section:NewButton("yeet a friend","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Q5i4SEUa'),true))()
+end)
+
+Tab4Section:NewButton("飞行汉化版","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/BfKRHh3d'),true))()
+end)
+
+Tab4Section:NewButton("点击赛跑","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gcrnMHfW'),true))()
+end)
+
+Tab4Section:NewButton("幸运方块大乱斗","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/Rrk0p69P'),true))()
+end)
+
+Tab4Section:NewButton("剑战士模拟器","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/KFwiKdZT'),true))()
+end)
+
+Tab4Section:NewButton("餐厅大亨2","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/qeBqmY9b'),true))()
+end)
+
+Tab4Section:NewButton("swim gui","汉化",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gug22N7M'),true))()
+end)
+
+Tab5Section:NewButton("Proxima Hub","强力脚本",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+Tab5Section:NewButton("hoho hub","强力脚本",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Tab5Section:NewButton("ice hub","强力脚本",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven'),true))()
+
+Tab5Section:NewButton("BlackTrap Hub","强力脚本",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptpastebin/raw/main/1'),true))()
+end)
+
+Tab6Section:NewButton("更改速度","jn hh gaming用AI整出的东西,如有侵权必删",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ucCRqZEx'),true))()
+end)
+
+Tab6Section:NewButton("无限跳跃","无限跳跃",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/u9EuU3FE'),true))()
+end)
